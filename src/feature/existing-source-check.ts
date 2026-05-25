@@ -103,7 +103,7 @@ export async function checkForExistingSource() {
     issue_number: issue.number,
   };
 
-  const extensionName = existingExtension.name.replace('Tachiyomi: ', '');
+  const extensionName = existingExtension.name.replace('Aniyomi: ', '');
   const extensionLang = findLangName(existingExtension.lang);
 
   await addDuplicateLabel(client, issueMetadata);

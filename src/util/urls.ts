@@ -1,12 +1,12 @@
 const URL_REGEX = /(?:https?:\/\/)?(?:[-\w]+\.)+[a-z]{2,18}\/?/gi;
 const EXCLUSION_LIST = [
-  'tachiyomi.org',
+  'aniyomi.org',
   'github.com',
   'user-images.githubusercontent.com',
   'gist.github.com',
-  'keiyoushi.github.io',
+  'yuzono.github.io',
   'github.blog',
-  'mihon.app',
+  'anikku-app.github.io',
 ];
 // Also file name extensions
 const EXCLUDED_DOMAINS = ['.md'];
